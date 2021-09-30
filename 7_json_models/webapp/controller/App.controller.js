@@ -2,7 +2,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/MessageToast", "sap/ui/model
     "use strict";
     return Controller.extend("x.controller.App", {
         onInit: function () {
-            var oDate = {
+            var oData = {
                 recipient: {
                     name: "world"
                 }
