@@ -3,10 +3,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/MessageToast", "sap/ui/model
     return Controller.extend("x.controller.App", {
         onInit: function () {
             var oData = {
-                recipient: {
-                    name: "world"
-                }
-            };
+                name : "rishi",
+                age : 40
+                };
+            
             var oModel = new JSONModel(oData);
             this.getView().setModel(oModel);
         },
