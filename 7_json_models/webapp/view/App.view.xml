@@ -5,12 +5,14 @@
 
 	<Button
 		text="Button Text"
-		press=".onShowHello"/> 
+		press=".onShowHello"
+	/> 
 
 	<Input
 		value="{/name}"
 		description="Hello {/name} and age of {/age}"
-		valueLiveupdate="true"
-		width="60%"/>
+		valueLiveUpdate="true"
+		width="60%" 
+	/>
 
 </mvc:View>
